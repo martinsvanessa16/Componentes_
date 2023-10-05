@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mFavorite"
+        android:icon="@drawable/favorite"
+        android:title="Favorite"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/mMusic"
+        android:icon="@drawable/music"
+        android:title="Music"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/mPlace"
+        android:icon="@drawable/place"
+        android:title="Place"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/Newspaper"
+        android:icon="@drawable/baseline_newspaper"
+        android:title="Newspaper"
+        app:showAsAction="ifRoom"/>
+</menu>
